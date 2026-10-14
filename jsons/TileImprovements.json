@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Canal",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Hill",
+      "Tundra",
+      "Snow",
+      "Forest",
+      "Jungle"
+    ],
+    "turnsToBuild": 6,
+    "techRequired": "Sailing",
+    "uniques": [
+      "Can be built outside your borders",
+      "Turn this tile into a [Coast] tile"
+    ]
+  },
+  {
+    "name": "Corral",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Hill"
+    ],
+    "production": 1,
+    "culture": 1,
+    "turnsToBuild": 3,
+    "gold": 1,
+    "techRequired": "Animal Husbandry",
+    "uniques": [
+      "Can only be built on [Wild Horses] tiles",
+      "Provides [3] [Wild Horses]"
+    ]
+  }
+]
