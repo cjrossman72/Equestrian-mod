@@ -23,8 +23,13 @@
     "text": "Your Equestrian tames Wild Horses",
     "presentation": "None",
     "choices": [
-      "Provides [1] [Horses]",
-      "Consumes [1] [Wild Horses]"
+      {
+        "text": "Tame horses",
+        "uniques": [
+          "Provides [1] [Horses]",
+          "Consumes [1] [Wild Horses]"
+        ]
+      }
     ]
   },
   {
