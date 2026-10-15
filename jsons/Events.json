@@ -142,7 +142,7 @@
   {
     "name": "Remove Buildings",
     "text": "And the winner is...",
-    "presentation": "none",
+    "presentation": "None",
     "choices": [
       {
         "text": "Remove All",
