@@ -45,7 +45,7 @@
   {
     "name": "Horse Race",
     "text": "And the winner is...",
-    "presentation": "Float",
+    "presentation": "Floating",
     "choices": [
       {
         "text": "Horse #1",
