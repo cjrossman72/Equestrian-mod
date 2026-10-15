@@ -20,19 +20,11 @@
   },
   {
     "name": "Corral",
-    "terrainsCanBeBuiltOn": [
-      "Plains",
-      "Grassland",
-      "Hill"
-    ],
-    "production": 1,
-    "culture": 1,
-    "turnsToBuild": 3,
-    "gold": 1,
-    "techRequired": "Animal Husbandry",
+    "turnsToBuild": 1,
     "uniques": [
-      "Can only be built on [Wild Horses] tiles",
-      "Provides [3] [Wild Horses]"
+      "Add [Horses] to this tile",
+      "Remove [Wild Horses] resources from this tile",
+      "Can only be built by [Equestrian] units"
     ]
   }
 ]

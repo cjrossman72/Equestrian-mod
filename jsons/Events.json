@@ -1,47 +1,156 @@
 [
   {
-    "name": "Found Wild Horses",
-    "text": "Your [Equestrian] has come across a herd of [Wild Horses]",
+    "name": "Horsetrack Bet",
+    "text": "Your [Horsetrack] is having a race. You can place a bet on a [Wild Horse]",
     "presentation": "Alert",
     "choices": [
       {
-        "text": "Catch [Wild Horses] that can be tamed and added to your [Horses] resources (this will consume your [Equestrian]",
+        "text": "Bet 50 [Gold] on [Wild Horses] #1 (2 to 1 odds = win 100 [Gold]",
         "uniques": [
-          "Instantly gain [1] [Wild Horses]",
-          "Triggers a [Destroy Equestrian] event",
-          "Comment [Wild Horses can be tamed by building a Horse Farm after discovering Horseback Riding. Every 10 rounds, one Wild Horse will become a Horses resource.] <once>"
+          "Triggers a [Horse Race] event",
+          "Gain a free [Winning Horse #1] [in capital] <hidden from users>",
+          "Gain [-50] [Gold]"
         ]
       },
       {
-        "text": "Continue without taming horses",
+        "text": "Bet 50 [Gold] on [Wild Horses] #2 (3 to 1 odds = win 150 [Gold]",
+        "uniques": [
+          "Triggers a [Horse Race] event",
+          "Gain a free [Winning Horse #2] [in capital] <hidden from users>",
+          "Gain [-50] [Gold]"
+        ]
+      },
+      {
+        "text": "Bet 50 [Gold] on [Wild Horses] #3 (5 to 1 odds = win 250 [Gold]",
+        "uniques": [
+          "Triggers a [Horse Race] event",
+          "Gain a free [Winning Horse #3] [in capital] <hidden from users>",
+          "Gain [-50] [Gold]"
+        ]
+      },
+      {
+        "text": "Bet 50 [Gold] on [Wild Horses] #4 (8 to 1 odds = win 400 [Gold]",
+        "uniques": [
+          "Gain a free [Winning Horse #4] [in capital] <hidden from users>",
+          "Triggers a [Horse Race] event",
+          "Gain [-50] [Gold]"
+        ]
+      },
+      {
+        "text": "Do not place a bet",
         "uniques": []
       }
     ]
   },
   {
-    "name": "Tame Horse",
-    "text": "Your Equestrian tames Wild Horses",
-    "presentation": "None",
+    "name": "Horse Race",
+    "text": "And the winner is...",
+    "presentation": "Float",
     "choices": [
       {
-        "text": "Tame horses",
+        "text": "Horse #1",
         "uniques": [
-          "Provides [1] [Horses]",
-          "Consumes [1] [Wild Horses]"
+          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #1",
+        "uniques": [
+          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #1",
+        "uniques": [
+          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #1",
+        "uniques": [
+          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #2",
+        "uniques": [
+          "Gain [200] [Gold] <if [Winning Horse #2] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 150 Gold] <if [Winning Horse #2] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #2] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #2",
+        "uniques": [
+          "Gain [200] [Gold] <if [Winning Horse #2] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 150 Gold] <if [Winning Horse #2] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #2] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #2",
+        "uniques": [
+          "Gain [200] [Gold] <if [Winning Horse #2] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 150 Gold] <if [Winning Horse #2] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #2] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #3",
+        "uniques": [
+          "Gain [300] [Gold] <if [Winning Horse #3] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 250 Gold] <if [Winning Horse #3] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #3] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #3",
+        "uniques": [
+          "Gain [300] [Gold] <if [Winning Horse #3] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 250 Gold] <if [Winning Horse #3] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #3] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
+        ]
+      },
+      {
+        "text": "Horse #4",
+        "uniques": [
+          "Gain [450] [Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [You won 400 Gold] <if [Winning Horse #1] is constructed in all [{Your} {Capital}] cities>",
+          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in all [{Your} {Capital}] cities>",
+          "Triggers a [Remove Buildings] event"
         ]
       }
     ]
   },
   {
-    "name": "Destroy Equestrian",
-    "text": "Destroy Equestrian",
-    "presentation": "None",
+    "name": "Remove Buildings",
+    "text": "And the winner is...",
+    "presentation": "none",
     "choices": [
       {
-        "text": "[This Unit] is destroyed",
+        "text": "Remove All",
         "uniques": [
-          "[This Unit] is destroyed",
-          "Remove [Archaeological Dig] improvements from this tile"
+          "Remove [Winning Horse #1] [in capital]",
+          "Remove [Winning Horse #2] [in capital]",
+          "Remove [Winning Horse #3] [in capital]",
+          "Remove [Winning Horse #4] [in capital]"
         ]
       }
     ]

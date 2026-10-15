@@ -16,8 +16,9 @@
     "production": 2,
     "isWonder": true,
     "uniques": [
-      "Only available <when number of [Wild Horses] is more than [0]>",
-      "Triggers a [Tame Horse] event <every [10] turns> <when number of [Wild Horses] is more than [0]> <hidden from users>"
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [6]>",
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
@@ -27,19 +28,47 @@
   },
   {
     "name": "Horsetrack",
-    "gold": 2,
+    "isWonder": true,
+    "production": 1,
     "culture": 2,
-    "uniques": [
-      "Limited to [2] per Civilization",
-      "[+1 Gold, +1 Production] <when number of [Horses] is more than [6]>",
-      "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
-      "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>"
-    ],
+    "happiness": 2,
     "cost": 175,
     "hurryCostModifier": 100,
     "maintenance": 1,
+    "uniques": [
+      "Only available <when number of [Wild Horses] is more than [3]>",
+      "Triggers a [Horsetrack Bet] event <every [10] turns> <when number of [Wild Horses] is more than [3]> <hidden from users>"
+    ],
     "requiredBuilding": "Horse Farm",
     "requiredTech": "Currency"
+  },
+  {
+    "name": "Winning Horse #1",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Winning Horse #2",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Winning Horse #3",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Winning Horse #4",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
   },
   {
     "name": "Jousting Arena",
