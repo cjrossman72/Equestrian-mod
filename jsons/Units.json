@@ -7,7 +7,7 @@
     "movement": 2,
     "cost": 100,
     "uniques": [
-      "Can build [Corral] improvements on tiles <with [Wild Horses]>",
+      "Can build [Corral] improvements on tiles",
       "Consumed when completing an improvement",
       "Ignores terrain cost",
       "Never appears as a Barbarian unit <hidden from users>",

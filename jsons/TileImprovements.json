@@ -23,7 +23,6 @@
     "turnsToBuild": 1,
     "uniques": [
       "Can be built outside your borders",
-      "Can only be built by [Equestrian] units",
       "Gain control over [Wild Horses] tiles in a [1]-tile radius"
     ]
   }
