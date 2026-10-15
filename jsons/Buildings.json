@@ -39,8 +39,7 @@
       "Only available <when number of [Wild Horses] is more than [3]>",
       "Triggers a [Horsetrack Bet] event <every [10] turns> <when number of [Wild Horses] is more than [3]> <hidden from users>"
     ],
-    "requiredBuilding": "Horse Farm",
-    "requiredTech": "Currency"
+    "requiredTech": "Animal Husbandry"
   },
   {
     "name": "Winning Horse #1",
