@@ -32,14 +32,13 @@
     "production": 1,
     "culture": 2,
     "happiness": 2,
-    "cost": 175,
+    "cost": 40,
     "hurryCostModifier": 100,
     "maintenance": 1,
     "uniques": [
       "Only available <when number of [Wild Horses] is more than [3]>",
-      "Triggers a [Horsetrack Bet] event <every [10] turns> <when number of [Wild Horses] is more than [3]> <hidden from users>"
-    ],
-    "requiredTech": "Animal Husbandry"
+      "Triggers a [Horsetrack Bet] event <every [10] turns> <hidden from users>"
+    ]
   },
   {
     "name": "Winning Horse #1",
