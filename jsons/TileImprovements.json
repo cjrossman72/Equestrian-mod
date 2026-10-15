@@ -22,9 +22,9 @@
     "name": "Corral",
     "turnsToBuild": 1,
     "uniques": [
-      "Add [Horses] to this tile",
-      "Remove [Wild Horses] resources from this tile",
-      "Can only be built by [Equestrian] units"
+      "Can be built outside your borders",
+      "Can only be built by [Equestrian] units",
+      "Gain control over [Wild Horses] tiles in a [1]-tile radius"
     ]
   }
 ]

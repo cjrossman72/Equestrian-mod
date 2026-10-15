@@ -7,6 +7,9 @@
       "Grassland",
       "Hill"
     ],
+    "improvedBy": [
+      "Corral"
+    ],
     "uniques": [
       "Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles>",
       "Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
