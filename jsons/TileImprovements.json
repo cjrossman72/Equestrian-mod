@@ -23,14 +23,18 @@
     "turnsToBuild": 1,
     "uniques": [
       "Can be built outside your borders",
-      "Gain control over [Wild Horses] tiles in a [1]-tile radius"
+      "Gain control over [Wild Horses] tiles in a [1]-tile radius",
+      "Provides [1] [Horses] <every [10] turns>",
+      "Unpillagable"
     ]
   },
   {
     "name": "Horsetrack",
-    "turnsToBuild": 1,
+    "turnsToBuild": 3,
     "uniques": [
-      "Triggers a [Horsetrack Bet] event <every [10] turns>"
-    ]
+      "Triggers a [Horsetrack Bet] event <every [10] turns>",
+      "Unbuildable"
+    ],
+    "cost": 75
   }
 ]
