@@ -30,11 +30,11 @@
   },
   {
     "name": "Horsetrack",
+    "cost": 75,
     "turnsToBuild": 3,
     "uniques": [
       "Triggers a [Horsetrack Bet] event <every [10] turns>",
       "Unbuildable"
-    ],
-    "cost": 75
+    ]
   }
 ]

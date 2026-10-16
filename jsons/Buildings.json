@@ -43,35 +43,31 @@
   {
     "name": "Winning Horse #1",
     "uniques": [
-      "Unbuildable",
-      "Consumes [4] [Wild Horses]"
+      "Unbuildable"
     ]
   },
   {
     "name": "Winning Horse #2",
     "uniques": [
-      "Unbuildable",
-      "Consumes [4] [Wild Horses]"
+      "Unbuildable"
     ]
   },
   {
     "name": "Winning Horse #3",
     "uniques": [
-      "Unbuildable",
-      "Consumes [4] [Wild Horses]"
+      "Unbuildable"
     ]
   },
   {
     "name": "Winning Horse #4",
     "uniques": [
-      "Unbuildable",
-      "Consumes [4] [Wild Horses]"
+      "Unbuildable"
     ]
   },
   {
     "name": "Jousting Arena",
-    "gold": 2,
-    "production": 2,
+    "science": 2,
+    "happiness": 2,
     "culture": 2,
     "isWonder": true,
     "uniques": [
@@ -81,7 +77,6 @@
     "cost": 270,
     "hurryCostModifier": 25,
     "maintenance": 1,
-    "requiredBuilding": "Horsetrack",
     "requiredTech": "Chivalry"
   }
 ]
