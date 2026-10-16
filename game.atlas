@@ -1,6 +1,6 @@
 
 game.png
-size: 512, 640
+size: 512, 720
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -204,6 +204,34 @@ NationIcons/Norse Gaels
   rotate: false
   xy: 400, 500
   size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Horse Barn
+  rotate: false
+  xy: 200, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Horse Farm
+  rotate: false
+  xy: 100, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Riding Academy
+  rotate: false
+  xy: 300, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Horsetrack
+  rotate: false
+  xy: 400, 400
+  size: 0, 600
   orig: 100, 100
   offset: 0, 0
   index: -1
