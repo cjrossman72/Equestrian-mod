@@ -5,7 +5,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "[+1 Production] from [Horses] tiles [in this city]",
-      "Provides [1] [Horses]",
+      "Provides [4] [Horses]",
       "Limited to [3] per Civilization"
     ],
     "requiredTech": "Animal Husbandry"
