@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Canal",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Hill",
+      "Tundra",
+      "Snow",
+      "Forest",
+      "Jungle"
+    ],
+    "turnsToBuild": 6,
+    "techRequired": "Sailing",
+    "uniques": [
+      "Can be built outside your borders",
+      "Turn this tile into a [Coast] tile"
+    ]
+  },
+  {
+    "name": "Corral",
+    "turnsToBuild": 1,
+    "uniques": [
+      "Can be built outside your borders",
+      "Gain control over [Wild Horses] tiles in a [1]-tile radius"
+    ]
+  },
+  {
+    "name": "Horsetrack",
+    "turnsToBuild": 1,
+    "uniques": [
+      "Triggers a [Horsetrack Bet] event <every [10] turns>"
+    ]
+  }
+]

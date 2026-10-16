@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Horse Corral",
+    "cost": 40,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "[+1 Production] from [Horses] tiles [in this city]",
+      "Provides [1] [Horses]",
+      "Limited to [3] per Civilization"
+    ],
+    "requiredTech": "Animal Husbandry"
+  },
+  {
+    "name": "Horse Farm",
+    "gold": 1,
+    "production": 2,
+    "isWonder": true,
+    "uniques": [
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [6]>",
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>"
+    ],
+    "cost": 150,
+    "hurryCostModifier": 75,
+    "maintenance": 1,
+    "requiredBuilding": "Horse Corral",
+    "requiredTech": "Horseback Riding"
+  },
+  {
+    "name": "Betting Parlour",
+    "isWonder": true,
+    "culture": 1,
+    "culture": 2,
+    "happiness": 2,
+    "cost": 40,
+    "hurryCostModifier": 100,
+    "maintenance": 1,
+    "uniques": [
+      "Only available <when number of [Horses] is more than [3]>",
+      "Creates a [Horsetrack] improvement on a specific tile"
+    ]
+  },
+  {
+    "name": "Winning Horse #1",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Winning Horse #2",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Winning Horse #3",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Winning Horse #4",
+    "uniques": [
+      "Unbuildable",
+      "Consumes [4] [Wild Horses]"
+    ]
+  },
+  {
+    "name": "Jousting Arena",
+    "gold": 2,
+    "production": 2,
+    "culture": 2,
+    "isWonder": true,
+    "uniques": [
+      "Provides [3] [Horses]",
+      "Free [Horseman] appears"
+    ],
+    "cost": 270,
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredBuilding": "Horsetrack",
+    "requiredTech": "Chivalry"
+  }
+]
