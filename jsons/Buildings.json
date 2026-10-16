@@ -1,6 +1,6 @@
 [
   {
-    "name": "Horse Barn",
+    "name": "Barn",
     "cost": 40,
     "hurryCostModifier": 25,
     "uniques": [
@@ -21,7 +21,7 @@
     "cost": 150,
     "hurryCostModifier": 75,
     "maintenance": 1,
-    "requiredBuilding": "Horse Barn",
+    "requiredBuilding": "Horse Corral",
     "requiredTech": "Bronze Working"
   },
   {
@@ -44,18 +44,20 @@
     "isWonder": true,
     "culture": 2,
     "happiness": 2,
+    "gold": 1,
     "cost": 40,
     "hurryCostModifier": 100,
     "maintenance": 1,
     "uniques": [
       "Only available <when number of [Horses] is more than [3]> <hidden from users>",
-      "Creates a [Horsetrack] improvement on a specific tile",
-      "Triggers a [Horsetrack Bet] event <after discovering [Writing]> <when number of [Horses] is more than [3]> <hidden from users>",
-      "Triggers a [Horsetrack Bet] event <after discovering [Horseback Riding]> <when number of [Horses] is more than [3]> <hidden from users>",
-      "Triggers a [Horsetrack Bet] event <after discovering [Currency]> <when number of [Horses] is more than [3]> <hidden from users>",
-      "Triggers a [Horsetrack Bet] event <after discovering [Guilds]> <when number of [Horses] is more than [3]> <hidden from users>",
-      "Triggers a [Horsetrack Bet] event <after discovering [Chivalry]> <when number of [Horses] is more than [3]> <hidden from users>"
-    ]
+      "Creates a [Horsetrack] improvement on a specific tile"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A [Betting Parlour] lets you build a [Horsetrack] which will periodically have horse races which you can bet upon."
+      }
+    ],
+    "requiredTech": "Animal Husbandry"
   },
   {
     "name": "Winning Horse #1",
