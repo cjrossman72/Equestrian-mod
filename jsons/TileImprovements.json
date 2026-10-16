@@ -31,6 +31,16 @@
   {
     "name": "Horsetrack",
     "cost": 75,
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Hill",
+      "Tundra",
+      "Snow",
+      "Forest",
+      "Jungle"
+    ],
     "turnsToBuild": 3,
     "uniques": [
       "Triggers a [Horsetrack Bet] event <every [10] turns>"
