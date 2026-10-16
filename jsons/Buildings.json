@@ -1,6 +1,6 @@
 [
   {
-    "name": "Barn",
+    "name": "Horse Barn",
     "cost": 40,
     "hurryCostModifier": 25,
     "uniques": [
@@ -21,7 +21,7 @@
     "cost": 150,
     "hurryCostModifier": 75,
     "maintenance": 1,
-    "requiredBuilding": "Horse Corral",
+    "requiredBuilding": "Horse Barn",
     "requiredTech": "Bronze Working"
   },
   {
