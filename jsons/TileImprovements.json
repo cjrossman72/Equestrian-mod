@@ -31,6 +31,8 @@
   {
     "name": "Horsetrack",
     "cost": 75,
+    "gold": 2,
+    "culture": 1,
     "terrainsCanBeBuiltOn": [
       "Plains",
       "Grassland",
@@ -43,7 +45,7 @@
     ],
     "turnsToBuild": 3,
     "uniques": [
-      "Triggers a [Horsetrack Bet] event <every [10] turns>"
+      "[+1 Production] from all [Culture] buildings"
     ]
   }
 ]
