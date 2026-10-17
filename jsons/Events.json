@@ -8,32 +8,32 @@
         "text": "Bet 50 [Gold] on [Horses] #1 (2 to 1 odds = win 100 [Gold]",
         "uniques": [
           "Gain a free [Winning Horse #1] [in capital] <hidden from users>",
-          "Gain [-50] [Gold]",
-          "Triggers a [Horse Race] event"
+          "Gain [-50] [Gold] <hidden from users>",
+          "Triggers a [Horse Race] event <hidden from users>"
         ]
       },
       {
         "text": "Bet 50 [Gold] on [Horses] #2 (3 to 1 odds = win 150 [Gold]",
         "uniques": [
           "Gain a free [Winning Horse #2] [in capital] <hidden from users>",
-          "Gain [-50] [Gold]",
-          "Triggers a [Horse Race] event"
+          "Gain [-50] [Gold] <hidden from users>",
+          "Triggers a [Horse Race] event <hidden from users>"
         ]
       },
       {
         "text": "Bet 50 [Gold] on [Horses] #3 (5 to 1 odds = win 250 [Gold]",
         "uniques": [
-          "Triggers a [Horse Race] event",
           "Gain a free [Winning Horse #3] [in capital] <hidden from users>",
-          "Gain [-50] [Gold]"
+          "Gain [-50] [Gold] <hidden from users>",
+          "Triggers a [Horse Race] event <hidden from users>"
         ]
       },
       {
         "text": "Bet 50 [Gold] on [Horses] #4 (7 to 1 odds = win 350 [Gold]",
         "uniques": [
           "Gain a free [Winning Horse #4] [in capital] <hidden from users>",
-          "Triggers a [Horse Race] event",
-          "Gain [-50] [Gold]"
+          "Gain [-50] [Gold] <hidden from users>",
+          "Triggers a [Horse Race] event <hidden from users>"
         ]
       },
       {
