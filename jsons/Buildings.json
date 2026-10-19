@@ -23,11 +23,13 @@
     "uniques": [
       "Only available <when number of [Horses] is more than [3]> <hidden from users>",
       "Gain [250] [Gold]",
-      "Triggers a [Horse Race] event"
+      "Triggers a [Horse Race] event",
+      "Only available <for [Human player] Civilizations>",
+      "Triggers [Remove Winners] event <upon turn end>"
     ],
     "civilopediaText": [
       {
-        "text": "With a [Horsetrack] you will periodically have the opportunity to be on horse races to win gold."
+        "text": "With a [Horsetrack] you will periodically have the opportunity to bet on horse races to win gold."
       }
     ]
   },
@@ -39,7 +41,8 @@
       "Free [Horseman] appears",
       "Only available <when number of [Horses] is more than [3]> <hidden from users>",
       "New [Mounted] units start with [15] XP [in this city]",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>",
+      "Triggers [Remove Winners] event <upon turn end>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
@@ -52,7 +55,8 @@
     "uniques": [
       "Only available <when number of [Horses] is more than [6]>",
       "Limited to [2] per Civilization",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>",
+      "Triggers [Remove Winners] event <upon turn end>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
@@ -68,7 +72,8 @@
     "uniques": [
       "Free [Knight] appears",
       "[+20]% Strength <for [Mounted] units> <when adjacent to a [Military] unit>",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>",
+      "Triggers [Remove Winners] event <upon turn end>"
     ],
     "cost": 270,
     "hurryCostModifier": 25,
@@ -85,7 +90,8 @@
       "All newly-trained [Mounted] units [in all cities] receive the [Drill I] promotion",
       "[Mounted] units gain the [Shock I] promotion",
       "[Mounted] units gain the [Drill I] promotion",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>",
+      "Triggers [Remove Winners] event <upon turn end>"
     ],
     "cost": 270,
     "hurryCostModifier": 25,
@@ -101,7 +107,8 @@
       "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
       "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>",
       "Only available <when number of [Horses] is more than [1]> <hidden from users>",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>",
+      "Triggers [Remove Winners] event <upon turn end>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,

@@ -51,106 +51,97 @@
         "text": "Horse #1",
         "uniques": [
           "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #1",
         "uniques": [
           "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #1",
         "uniques": [
           "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #1",
         "uniques": [
           "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #2",
         "uniques": [
           "Gain [200] [Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #2",
         "uniques": [
           "Gain [200] [Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #2",
         "uniques": [
           "Gain [200] [Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #3",
         "uniques": [
           "Gain [300] [Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 250 Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #3] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 250 Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #3 won the race] <if [Winning Horse #3] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #3",
         "uniques": [
           "Gain [300] [Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 250 Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #3] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 250 Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #3 won the race] <if [Winning Horse #3] is not constructed in at least [1] of [Your] cities>"
         ]
       },
       {
         "text": "Horse #4",
         "uniques": [
           "Gain [400] [Gold] <if [Winning Horse #4] is constructed in at least [1] of [Your] cities>",
-          "Comment: [You won 350 Gold] <if [Winning Horse #4] is constructed in at least [1] of [Your] cities>",
-          "Comment: [Unfortunately your Horse lost] <if [Winning Horse #4] is not constructed in at least [1] of [Your] cities>",
-          "Triggers a [Remove Buildings] event <upon turn end>"
+          "Triggers the following global alert: [You won 350 Gold] <if [Winning Horse #4] is constructed in at least [1] of [Your] cities>",
+          "Triggers the following global alert: [Unfortunately, Horse #4 won the race] <if [Winning Horse #4] is not constructed in at least [1] of [Your] cities>"
         ]
       }
     ]
   },
   {
-    "name": "Remove Buildings",
-    "text": "And the winner is...",
+    "name": "Remove Winners",
+    "text": "",
     "presentation": "None",
     "choices": [
       {
         "text": "Remove All",
         "uniques": [
-          "Remove [Winning Horse #1] [in capital]",
+          "Remove [Winning Horse #1] [in all cities]",
           "Remove [Winning Horse #2] [in capital]",
           "Remove [Winning Horse #3] [in capital]",
-          "Remove [Winning Horse #4] [in capital]"
+          "Remove [Winning Horse #4] [in capital]",
+          "Triggers a [Place Bet] event"
         ]
       }
     ]
