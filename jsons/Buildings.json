@@ -5,59 +5,109 @@
     "hurryCostModifier": 25,
     "uniques": [
       "[+1 Production] from [Farm] tiles [in this city]",
-      "Provides [4] [Horses]",
-      "Limited to [2] per Civilization"
+      "Provides [2] [Horses]",
+      "Limited to [2] per Civilization",
+      "Only available <when number of [Horses] is more than [3]> <hidden from users>"
     ],
     "requiredTech": "Animal Husbandry"
   },
   {
-    "name": "Horse Farm",
-    "gold": 1,
-    "production": 2,
+    "name": "Horsetrack",
     "isWonder": true,
+    "culture": 2,
+    "happiness": 2,
+    "cost": 40,
+    "hurryCostModifier": 100,
+    "maintenance": 1,
+    "requiredTech": "Writing",
     "uniques": [
-      "Provides [1] [Horses] <every [10] turns>"
+      "Only available <when number of [Horses] is more than [3]> <hidden from users>",
+      "Gain [250] [Gold]",
+      "Triggers a [Horse Race] event"
+    ],
+    "civilopediaText": [
+      {
+        "text": "With a [Horsetrack] you will periodically have the opportunity to be on horse races to win gold."
+      }
+    ]
+  },
+  {
+    "name": "Riding Academy",
+    "gold": 1,
+    "production": 1,
+    "uniques": [
+      "Free [Horseman] appears",
+      "Only available <when number of [Horses] is more than [3]> <hidden from users>",
+      "New [Mounted] units start with [15] XP [in this city]",
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
     "maintenance": 1,
     "requiredBuilding": "Horse Barn",
-    "requiredTech": "Bronze Working"
+    "requiredTech": "Horseback Riding"
   },
   {
-    "name": "Riding Academy",
-    "gold": 1,
-    "production": 2,
+    "name": "Horse Farm",
     "uniques": [
-      "[+1 Gold, +1 Production] <when number of [Horses] is more than [6]>",
-      "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
-      "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>"
+      "Only available <when number of [Horses] is more than [6]>",
+      "Limited to [2] per Civilization",
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
     "maintenance": 1,
-    "requiredBuilding": "Horse Farm",
-    "requiredTech": "Horseback Riding"
+    "requiredBuilding": "Riding Academy",
+    "requiredTech": "Iron Working"
   },
   {
-    "name": "Betting Parlour",
-    "isWonder": true,
-    "culture": 2,
-    "happiness": 2,
-    "gold": 1,
-    "cost": 40,
-    "hurryCostModifier": 100,
-    "maintenance": 1,
+    "name": "Jousting Arena",
+    "science": 1,
+    "happiness": 1,
+    "culture": 1,
     "uniques": [
-      "Only available <when number of [Horses] is more than [3]> <hidden from users>",
-      "Creates a [Horsetrack] improvement on a specific tile"
+      "Free [Knight] appears",
+      "[+20]% Strength <for [Mounted] units> <when adjacent to a [Military] unit>",
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
     ],
-    "civilopediaText": [
-      {
-        "text": "A [Betting Parlour] lets you build a [Horsetrack] which will periodically have horse races which you can bet upon."
-      }
+    "cost": 270,
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Chivalry"
+  },
+  {
+    "name": "Equestrian Course",
+    "science": 1,
+    "happiness": 1,
+    "uniques": [
+      "Only available <when number of [Horses] is more than [9]> <hidden from users>",
+      "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
+      "All newly-trained [Mounted] units [in all cities] receive the [Drill I] promotion",
+      "[Mounted] units gain the [Shock I] promotion",
+      "[Mounted] units gain the [Drill I] promotion",
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
     ],
-    "requiredTech": "Animal Husbandry"
+    "cost": 270,
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "requiredTech": "Guilds"
+  },
+  {
+    "name": "Polo Grounds",
+    "happiness": 2,
+    "culture": 2,
+    "uniques": [
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [6]>",
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
+      "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>",
+      "Only available <when number of [Horses] is more than [1]> <hidden from users>",
+      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities>"
+    ],
+    "cost": 150,
+    "hurryCostModifier": 75,
+    "maintenance": 2,
+    "requiredBuilding": "Equestrian Course",
+    "requiredTech": "Banking"
   },
   {
     "name": "Winning Horse #1",
@@ -82,20 +132,5 @@
     "uniques": [
       "Unbuildable"
     ]
-  },
-  {
-    "name": "Jousting Arena",
-    "science": 2,
-    "happiness": 2,
-    "culture": 2,
-    "isWonder": true,
-    "uniques": [
-      "Provides [3] [Horses]",
-      "Free [Knight] appears"
-    ],
-    "cost": 270,
-    "hurryCostModifier": 25,
-    "maintenance": 1,
-    "requiredTech": "Chivalry"
   }
 ]

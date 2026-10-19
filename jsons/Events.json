@@ -1,6 +1,6 @@
 [
   {
-    "name": "Horsetrack Bet",
+    "name": "Horse Race",
     "text": "Your [Horsetrack] is having a race. You can place a bet on a [Horse]",
     "presentation": "Alert",
     "choices": [
@@ -9,7 +9,7 @@
         "uniques": [
           "Gain a free [Winning Horse #1] [in capital] <hidden from users>",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Race] event <hidden from users>"
+          "Triggers a [Horse Winner] event <hidden from users>"
         ]
       },
       {
@@ -17,7 +17,7 @@
         "uniques": [
           "Gain a free [Winning Horse #2] [in capital] <hidden from users>",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Race] event <hidden from users>"
+          "Triggers a [Horse Winner] event <hidden from users>"
         ]
       },
       {
@@ -25,7 +25,7 @@
         "uniques": [
           "Gain a free [Winning Horse #3] [in capital] <hidden from users>",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Race] event <hidden from users>"
+          "Triggers a [Horse Winner] event <hidden from users>"
         ]
       },
       {
@@ -33,7 +33,7 @@
         "uniques": [
           "Gain a free [Winning Horse #4] [in capital] <hidden from users>",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Race] event <hidden from users>"
+          "Triggers a [Horse Winner] event <hidden from users>"
         ]
       },
       {
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "name": "Horse Race",
+    "name": "Horse Winner",
     "text": "And the winner is...",
     "presentation": "None",
     "choices": [
