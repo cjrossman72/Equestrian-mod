@@ -7,7 +7,7 @@
       {
         "text": "Bet 50 [Gold] on [Horses] #1 (2 to 1 odds = win 100 [Gold]",
         "uniques": [
-          "Gain a free [Winning Horse #1] [in capital] <hidden from users>",
+          "Set [Race Horses] to [1]",
           "Gain [-50] [Gold] <hidden from users>",
           "Triggers a [Horse Winner] event <hidden from users>"
         ]
@@ -15,7 +15,7 @@
       {
         "text": "Bet 50 [Gold] on [Horses] #2 (3 to 1 odds = win 150 [Gold]",
         "uniques": [
-          "Gain a free [Winning Horse #2] [in capital] <hidden from users>",
+          "Set [Race Horses] to [2]",
           "Gain [-50] [Gold] <hidden from users>",
           "Triggers a [Horse Winner] event <hidden from users>"
         ]
@@ -23,7 +23,7 @@
       {
         "text": "Bet 50 [Gold] on [Horses] #3 (5 to 1 odds = win 250 [Gold]",
         "uniques": [
-          "Gain a free [Winning Horse #3] [in capital] <hidden from users>",
+          "Set [Race Horses] to [3]",
           "Gain [-50] [Gold] <hidden from users>",
           "Triggers a [Horse Winner] event <hidden from users>"
         ]
@@ -31,7 +31,7 @@
       {
         "text": "Bet 50 [Gold] on [Horses] #4 (7 to 1 odds = win 350 [Gold]",
         "uniques": [
-          "Gain a free [Winning Horse #4] [in capital] <hidden from users>",
+          "Set [Race Horses] to [4]",
           "Gain [-50] [Gold] <hidden from users>",
           "Triggers a [Horse Winner] event <hidden from users>"
         ]
@@ -50,98 +50,33 @@
       {
         "text": "Horse #1",
         "uniques": [
-          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
-        ]
-      },
-      {
-        "text": "Horse #1",
-        "uniques": [
-          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
-        ]
-      },
-      {
-        "text": "Horse #1",
-        "uniques": [
-          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
-        ]
-      },
-      {
-        "text": "Horse #1",
-        "uniques": [
-          "Gain [150] [Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 100 Gold] <if [Winning Horse #1] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <if [Winning Horse #1] is not constructed in at least [1] of [Your] cities>"
+          "Gain [150] [Gold] <when number of [Race Horses] is equal to [1]>",
+          "Triggers the following global alert: [You won 100 Gold] <when number of [Race Horses] is equal to [1]>",
+          "Triggers the following global alert: [Unfortunately, Horse #4 won the race] <when number of [Race Horses] is different than [1]>"
         ]
       },
       {
         "text": "Horse #2",
         "uniques": [
-          "Gain [200] [Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>"
-        ]
-      },
-      {
-        "text": "Horse #2",
-        "uniques": [
-          "Gain [200] [Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>"
-        ]
-      },
-      {
-        "text": "Horse #2",
-        "uniques": [
-          "Gain [200] [Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 150 Gold] <if [Winning Horse #2] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <if [Winning Horse #2] is not constructed in at least [1] of [Your] cities>"
+          "Gain [2000] [Gold] <when number of [Race Horses] is equal to [2]>",
+          "Triggers the following global alert: [You won 150 Gold] <when number of [Race Horses] is equal to [2]>",
+          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <when number of [Race Horses] is different than [2]>"
         ]
       },
       {
         "text": "Horse #3",
         "uniques": [
-          "Gain [300] [Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 250 Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #3 won the race] <if [Winning Horse #3] is not constructed in at least [1] of [Your] cities>"
-        ]
-      },
-      {
-        "text": "Horse #3",
-        "uniques": [
-          "Gain [300] [Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 250 Gold] <if [Winning Horse #3] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #3 won the race] <if [Winning Horse #3] is not constructed in at least [1] of [Your] cities>"
+          "Gain [300] [Gold] <when number of [Race Horses] is equal to [3]>",
+          "Triggers the following global alert: [You won 250 Gold] <when number of [Race Horses] is equal to [3]>",
+          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <when number of [Race Horses] is different than [3]>"
         ]
       },
       {
         "text": "Horse #4",
         "uniques": [
-          "Gain [400] [Gold] <if [Winning Horse #4] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [You won 350 Gold] <if [Winning Horse #4] is constructed in at least [1] of [Your] cities>",
-          "Triggers the following global alert: [Unfortunately, Horse #4 won the race] <if [Winning Horse #4] is not constructed in at least [1] of [Your] cities>"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Remove Winners",
-    "text": "",
-    "presentation": "None",
-    "choices": [
-      {
-        "text": "Remove All",
-        "uniques": [
-          "Remove [Winning Horse #1] [in all cities]",
-          "Remove [Winning Horse #2] [in capital]",
-          "Remove [Winning Horse #3] [in capital]",
-          "Remove [Winning Horse #4] [in capital]",
-          "Triggers a [Place Bet] event"
+          "Gain [400] [Gold] <when number of [Race Horses] is equal to [4]>",
+          "Triggers the following global alert: [You won 450 Gold] <when number of [Race Horses] is equal to [4]>",
+          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <when number of [Race Horses] is different than [4]>"
         ]
       }
     ]

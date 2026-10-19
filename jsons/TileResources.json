@@ -14,5 +14,13 @@
       "Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
       "Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"
     ]
+  },
+  {
+    "name": "Race Horses",
+    "resourceType": "Strategic",
+    "uniques": [
+      "Doesn't generate naturally",
+      "Stockpiled"
+    ]
   }
 ]
