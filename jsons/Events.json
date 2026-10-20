@@ -9,7 +9,7 @@
         "uniques": [
           "Set [Race Horses] to [1]",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <hidden from users>"
+          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
         ]
       },
       {
@@ -17,7 +17,7 @@
         "uniques": [
           "Set [Race Horses] to [2]",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <hidden from users>"
+          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
         ]
       },
       {
@@ -25,7 +25,7 @@
         "uniques": [
           "Set [Race Horses] to [3]",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <hidden from users>"
+          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
         ]
       },
       {
@@ -33,7 +33,7 @@
         "uniques": [
           "Set [Race Horses] to [4]",
           "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <hidden from users>"
+          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
         ]
       },
       {

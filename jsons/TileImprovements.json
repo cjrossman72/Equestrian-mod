@@ -24,7 +24,6 @@
     "uniques": [
       "Can be built outside your borders",
       "Gain control over [Wild Horses] tiles in a [1]-tile radius",
-      "Provides [1] [Horses] <every [10] turns>",
       "Unpillagable"
     ]
   },
@@ -45,7 +44,8 @@
     ],
     "turnsToBuild": 3,
     "uniques": [
-      "[+1 Production] from all [Culture] buildings"
+      "[+1 Production] from all [Culture] buildings",
+      "Unpillagable"
     ]
   }
 ]
