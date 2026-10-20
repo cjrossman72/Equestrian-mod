@@ -23,7 +23,7 @@
     "uniques": [
       "Only available <when number of [Horses] is more than [2]> <hidden from users>",
       "Gain [250] [Gold]",
-      "Triggers a [Horse Race] event <upon turn end>",
+      "Triggers a [Horse Race] event <upon constructing [Horsetrack]>",
       "Only available <for [Human player] Civilizations>"
     ],
     "civilopediaText": [

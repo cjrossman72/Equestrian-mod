@@ -5,35 +5,27 @@
     "presentation": "Alert",
     "choices": [
       {
-        "text": "Bet 50 [Gold] on [Horses] #1 (2 to 1 odds = win 100 [Gold]",
+        "text": "Bet 50 [Gold] on [Horses] #1 (1 to 1 odds = win 50 [Gold]",
         "uniques": [
-          "Set [Race Horses] to [1]",
-          "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
+          "Triggers a [Winner 1] event <hidden from users>"
         ]
       },
       {
-        "text": "Bet 50 [Gold] on [Horses] #2 (3 to 1 odds = win 150 [Gold]",
+        "text": "Bet 50 [Gold] on [Horses] #2 (2 to 1 odds = win 100 [Gold]",
         "uniques": [
-          "Set [Race Horses] to [2]",
-          "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
+          "Triggers a [Winner 2] event <hidden from users>"
         ]
       },
       {
-        "text": "Bet 50 [Gold] on [Horses] #3 (5 to 1 odds = win 250 [Gold]",
+        "text": "Bet 75 [Gold] on [Horses] #3 (4 to 1 odds = win 300 [Gold]",
         "uniques": [
-          "Set [Race Horses] to [3]",
-          "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
+          "Triggers a [Winner 3] <hidden from users>"
         ]
       },
       {
-        "text": "Bet 50 [Gold] on [Horses] #4 (7 to 1 odds = win 350 [Gold]",
+        "text": "Bet 100 [Gold] on [Horses] #4 (5 to 1 odds = win 500 [Gold]",
         "uniques": [
-          "Set [Race Horses] to [4]",
-          "Gain [-50] [Gold] <hidden from users>",
-          "Triggers a [Horse Winner] event <upon turn end> <hidden from users>"
+          "Triggers a [Winner 4] event <hidden from users>"
         ]
       },
       {
@@ -43,40 +35,125 @@
     ]
   },
   {
-    "name": "Horse Winner",
+    "name": "Winner 1",
     "text": "And the winner is...",
     "presentation": "None",
     "choices": [
       {
-        "text": "Horse #1",
+        "text": "Horse #1! You won 50 [Gold]",
         "uniques": [
-          "Gain [150] [Gold] <when number of [Race Horses] is equal to [1]>",
-          "Triggers the following global alert: [You won 100 Gold] <when number of [Race Horses] is equal to [1]>",
-          "Triggers the following global alert: [Unfortunately, Horse #4 won the race] <when number of [Race Horses] is different than [1]>"
+          "Gain [50] [Gold]"
         ]
       },
       {
-        "text": "Horse #2",
+        "text": "Horse #2. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [2000] [Gold] <when number of [Race Horses] is equal to [2]>",
-          "Triggers the following global alert: [You won 150 Gold] <when number of [Race Horses] is equal to [2]>",
-          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <when number of [Race Horses] is different than [2]>"
+          "Gain [-50] [Gold]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Winner 2",
+    "text": "And the winner is...",
+    "presentation": "None",
+    "choices": [
+      {
+        "text": "Horse #2! You won 100 [Gold]",
+        "uniques": [
+          "Gain [100] [Gold]"
         ]
       },
       {
-        "text": "Horse #3",
+        "text": "Horse #3. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [300] [Gold] <when number of [Race Horses] is equal to [3]>",
-          "Triggers the following global alert: [You won 250 Gold] <when number of [Race Horses] is equal to [3]>",
-          "Triggers the following global alert: [Unfortunately, Horse #2 won the race] <when number of [Race Horses] is different than [3]>"
+          "Gain [-50] [Gold] <hidden from users>"
         ]
       },
       {
-        "text": "Horse #4",
+        "text": "Horse #4. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [400] [Gold] <when number of [Race Horses] is equal to [4]>",
-          "Triggers the following global alert: [You won 450 Gold] <when number of [Race Horses] is equal to [4]>",
-          "Triggers the following global alert: [Unfortunately, Horse #1 won the race] <when number of [Race Horses] is different than [4]>"
+          "Gain [-50] [Gold] <hidden from users>"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Winner 3",
+    "text": "And the winner is...",
+    "presentation": "None",
+    "choices": [
+      {
+        "text": "Horse #3! You won 300 [Gold]",
+        "uniques": [
+          "Gain [300] [Gold]"
+        ]
+      },
+      {
+        "text": "Horse #1. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-75] [Gold] <hidden from users>"
+        ]
+      },
+      {
+        "text": "Horse #1. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-75] [Gold] <hidden from users>"
+        ]
+      },
+      {
+        "text": "Horse #2. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-75] [Gold] <hidden from users>"
+        ]
+      },
+      {
+        "text": "Horse #4. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-75] [Gold] <hidden from users>"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Winner 4",
+    "text": "And the winner is...",
+    "presentation": "None",
+    "choices": [
+      {
+        "text": "Horse #4! You won 500 [Gold]",
+        "uniques": [
+          "Gain [500] [Gold]"
+        ]
+      },
+      {
+        "text": "Horse #1. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-100] [Gold]"
+        ]
+      },
+      {
+        "text": "Horse #1. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-100] [Gold]"
+        ]
+      },
+      {
+        "text": "Horse #2. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-100] [Gold]"
+        ]
+      },
+      {
+        "text": "Horse #2. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-100] [Gold]"
+        ]
+      },
+      {
+        "text": "Horse #3. Unfortunately, your horse lost :(",
+        "uniques": [
+          "Gain [-100] [Gold]"
         ]
       }
     ]
