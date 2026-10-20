@@ -230,8 +230,15 @@ BuildingIcons/Riding Academy
   index: -1
 BuildingIcons/Horsetrack
   rotate: false
-  xy: 400, 400
-  size: 0, 600
+  xy: 0, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Race Horses
+  rotate: false
+  xy: 400, 600
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
