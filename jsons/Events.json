@@ -42,13 +42,15 @@
       {
         "text": "Horse #1! You won 50 [Gold]",
         "uniques": [
-          "Gain [50] [Gold]"
+          "Gain [50] [Gold]",
+          "Comment [Your horse won the race! You win 50 Gold!]"
         ]
       },
       {
         "text": "Horse #2. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-50] [Gold]"
+          "Gain [-50] [Gold]",
+          "Comment [Unfortunately, your horse lost :(]"
         ]
       }
     ]
