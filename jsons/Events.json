@@ -43,14 +43,14 @@
         "text": "Horse #1! You won 50 [Gold]",
         "uniques": [
           "Gain [50] [Gold]",
-          "Comment [Your horse won the race! You win 50 Gold!]"
+          "Triggers a [You Won] event"
         ]
       },
       {
         "text": "Horse #2. Unfortunately, your horse lost :(",
         "uniques": [
           "Gain [-50] [Gold]",
-          "Comment [Unfortunately, your horse lost :(]"
+          "Triggers a [You Lost] event"
         ]
       }
     ]
@@ -63,19 +63,22 @@
       {
         "text": "Horse #2! You won 100 [Gold]",
         "uniques": [
-          "Gain [100] [Gold]"
+          "Gain [100] [Gold]",
+          "Triggers a [You Won] event"
         ]
       },
       {
         "text": "Horse #3. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-50] [Gold] <hidden from users>"
+          "Gain [-50] [Gold] <hidden from users>",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #4. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-50] [Gold] <hidden from users>"
+          "Gain [-50] [Gold] <hidden from users>",
+          "Triggers a [You Lost] event"
         ]
       }
     ]
@@ -88,31 +91,36 @@
       {
         "text": "Horse #3! You won 300 [Gold]",
         "uniques": [
-          "Gain [300] [Gold]"
+          "Gain [300] [Gold]",
+          "Triggers a [You Won] event"
         ]
       },
       {
         "text": "Horse #1. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-75] [Gold] <hidden from users>"
+          "Gain [-75] [Gold] <hidden from users>",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #1. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-75] [Gold] <hidden from users>"
+          "Gain [-75] [Gold] <hidden from users>",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #2. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-75] [Gold] <hidden from users>"
+          "Gain [-75] [Gold] <hidden from users>",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #4. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-75] [Gold] <hidden from users>"
+          "Gain [-75] [Gold] <hidden from users>",
+          "Triggers a [You Lost] event"
         ]
       }
     ]
@@ -125,38 +133,66 @@
       {
         "text": "Horse #4! You won 500 [Gold]",
         "uniques": [
-          "Gain [500] [Gold]"
+          "Gain [500] [Gold]",
+          "Triggers a [You Won] event"
         ]
       },
       {
         "text": "Horse #1. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-100] [Gold]"
+          "Gain [-100] [Gold]",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #1. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-100] [Gold]"
+          "Gain [-100] [Gold]",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #2. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-100] [Gold]"
+          "Gain [-100] [Gold]",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #2. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-100] [Gold]"
+          "Gain [-100] [Gold]",
+          "Triggers a [You Lost] event"
         ]
       },
       {
         "text": "Horse #3. Unfortunately, your horse lost :(",
         "uniques": [
-          "Gain [-100] [Gold]"
+          "Gain [-100] [Gold]",
+          "Triggers a [You Lost] event"
         ]
+      }
+    ]
+  },
+  {
+    "name": "You Won",
+    "text": "Your horse won the race!",
+    "presentation": "Alert",
+    "choices": [
+      {
+        "text": "Congratulations!",
+        "uniques": []
+      }
+    ]
+  },
+  {
+    "name": "You Lost",
+    "text": "Unfortunately your horse did not win :(",
+    "presentation": "Alert",
+    "choices": [
+      {
+        "text": "Better luck next time.",
+        "uniques": []
       }
     ]
   }
