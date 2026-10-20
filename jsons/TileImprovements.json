@@ -20,7 +20,10 @@
   },
   {
     "name": "Corral",
-    "turnsToBuild": 1,
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "turnsToBuild": 3,
     "uniques": [
       "Can be built outside your borders",
       "Gain control over [Wild Horses] tiles in a [1]-tile radius",
