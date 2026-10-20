@@ -19,7 +19,7 @@
       {
         "text": "Bet 75 [Gold] on [Horses] #3 (4 to 1 odds = win 300 [Gold]",
         "uniques": [
-          "Triggers a [Winner 3] <hidden from users>"
+          "Triggers a [Winner 3] event <hidden from users>"
         ]
       },
       {
