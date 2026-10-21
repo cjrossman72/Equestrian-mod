@@ -7,7 +7,7 @@
       "[+1 Production] from [Farm] tiles [in this city]",
       "Provides [2] [Horses]",
       "Limited to [2] per Civilization",
-      "Only available <when number of [Horses] is more than [3]> <hidden from users>"
+      "Only available <when number of [Horses] is more than [2]> <hidden from users>"
     ],
     "requiredTech": "Animal Husbandry"
   },
@@ -36,11 +36,13 @@
     "name": "Riding Academy",
     "gold": 1,
     "production": 1,
+    "isWonder": true,
     "uniques": [
       "Free [Horseman] appears",
       "Only available <when number of [Horses] is more than [3]> <hidden from users>",
       "New [Mounted] units start with [15] XP [in this city]",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
+      "Triggers [Horse Race] event <upon constructing [Riding Academy]>",
+      "Only available <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
@@ -51,9 +53,11 @@
   {
     "name": "Horse Farm",
     "uniques": [
-      "Only available <when number of [Horses] is more than [6]>",
+      "Only available <when number of [Horses] is more than [2]>",
+      "Provides [2] [Horses] <upon entering a new era>",
       "Limited to [2] per Civilization",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
+      "Only available <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>",
+      "Triggers [Horse Race] event <upon constructing Horse Farm]>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
@@ -63,13 +67,15 @@
   },
   {
     "name": "Jousting Arena",
+    "isWonder": true,
     "science": 1,
     "happiness": 1,
     "culture": 1,
     "uniques": [
       "Free [Knight] appears",
       "[+20]% Strength <for [Mounted] units> <when adjacent to a [Military] unit>",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
+      "Only available <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>",
+      "Triggers [Horse Race] event <upon constructing Jousting Arena]>"
     ],
     "cost": 270,
     "hurryCostModifier": 25,
@@ -81,12 +87,11 @@
     "science": 1,
     "happiness": 1,
     "uniques": [
-      "Only available <when number of [Horses] is more than [9]> <hidden from users>",
-      "All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
-      "All newly-trained [Mounted] units [in all cities] receive the [Drill I] promotion",
-      "[Mounted] units gain the [Shock I] promotion",
-      "[Mounted] units gain the [Drill I] promotion",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
+      "Only available <when number of [Horses] is more than [5]> <hidden from users>",
+      "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion",
+      "All newly-trained [Mounted] units [in this city] receive the [Drill I] promotion",
+      "Triggers [Horse Race] event <upon constructing [Riding Academy]>",
+      "Only available <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
     ],
     "cost": 270,
     "hurryCostModifier": 25,
@@ -101,8 +106,9 @@
       "[+1 Gold, +1 Production] <when number of [Horses] is more than [6]>",
       "[+1 Gold, +1 Production] <when number of [Horses] is more than [12]>",
       "[+1 Gold, +1 Production] <when number of [Horses] is more than [18]>",
-      "Only available <when number of [Horses] is more than [1]> <hidden from users>",
-      "Triggers [Horse Race] event <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>"
+      "Only available <when number of [Horses] is more than [5]> <hidden from users>",
+      "Only available <if [Horsetrack] is constructed in at least [1] of [Your] cities> <hidden from users>",
+      "Triggers [Horse Race] event <upon constructing [Riding Academy]>"
     ],
     "cost": 150,
     "hurryCostModifier": 75,
